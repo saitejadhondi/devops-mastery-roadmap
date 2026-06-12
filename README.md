@@ -33,7 +33,7 @@ Production Troubleshooting
 Interview Preparation
 ```
 
-The goal is to provide practical and interview-focused notes for:
+The goal is to provide practical, production-focused, and interview-oriented notes for:
 
 * DevOps Engineers
 * Cloud Engineers
@@ -41,19 +41,49 @@ The goal is to provide practical and interview-focused notes for:
 * Site Reliability Engineers (SRE)
 * Infrastructure Engineers
 * Software Engineers
+* College Students & Freshers
 
 ---
 
-# 📈 Repository Progress
+# 🎯 Who Is This Repository For?
 
-* [x] Foundations
-* [x] Core DevOps
-* [x] Advanced DevOps
-* [x] Real-World Projects
-* [ ] Ultimate Interview Q&A
-* [ ] Scenario-Based Interviews
-* [ ] Architecture Diagrams
-* [ ] Cheatsheets Expansion
+✅ Beginners Starting DevOps
+
+✅ Software Engineers Learning Cloud
+
+✅ DevOps Engineers Preparing for Interviews
+
+✅ SRE & Platform Engineering Aspirants
+
+✅ College Students & Freshers
+
+✅ Working Professionals Upskilling
+
+---
+
+# 🚀 Quick Start
+
+If you're completely new to DevOps, follow this order:
+
+```text
+00 → 01 → 02 → 03
+        ↓
+04 → 05 → 06 → 07 → 08
+        ↓
+17 → 18 → 19
+        ↓
+22 → 23 → 25 → 27
+        ↓
+28 → 29
+        ↓
+30 → 31 → 32
+```
+
+Recommended Timeline:
+
+* Beginner: 8–12 Weeks
+* Intermediate: 4–6 Weeks
+* Interview Revision: 1–2 Weeks
 
 ---
 
@@ -124,6 +154,23 @@ The goal is to provide practical and interview-focused notes for:
 | 30      | [DevOps Interview Master Handbook](notes/30-DevOps-Interview-Master-Handbook.md)                         |
 | 31      | [DevOps Interview Questions & Answers Ultimate](notes/31-DevOps-Interview-Questions-Answers-Ultimate.md) |
 | 32      | [Scenario-Based DevOps Interviews](notes/32-DevOps-Scenario-Based-Interviews.md)                         |
+
+---
+
+# ⚡ Quick Reference Cheatsheets
+
+| Cheatsheet                 | Link                                                                       |
+| -------------------------- | -------------------------------------------------------------------------- |
+| Linux Cheatsheet           | [Linux Cheatsheet](cheatsheets/33-Linux-CheatSheet.md)                     |
+| Git Cheatsheet             | [Git Cheatsheet](cheatsheets/34-Git-CheatSheet.md)                         |
+| Docker Cheatsheet          | [Docker Cheatsheet](cheatsheets/35-Docker-CheatSheet.md)                   |
+| Kubernetes Cheatsheet      | [Kubernetes Cheatsheet](cheatsheets/36-Kubernetes-CheatSheet.md)           |
+| AWS Cheatsheet             | [AWS Cheatsheet](cheatsheets/37-AWS-CheatSheet.md)                         |
+| Terraform Cheatsheet       | [Terraform Cheatsheet](cheatsheets/38-Terraform-CheatSheet.md)             |
+| Networking Cheatsheet      | [Networking Cheatsheet](cheatsheets/39-Networking-CheatSheet.md)           |
+| DevOps Commands Cheatsheet | [DevOps Commands Cheatsheet](cheatsheets/40-DevOps-Commands-CheatSheet.md) |
+| Architecture Diagrams      | [Architecture Diagrams](cheatsheets/41-DevOps-Architecture-Diagrams.md)    |
+| Quick Revision Notes       | [Quick Revision Notes](cheatsheets/42-DevOps-Quick-Revision.md)            |
 
 ---
 
@@ -219,36 +266,6 @@ Disaster Recovery
 
 ---
 
-# 📁 Repository Structure
-
-```text
-devops-mastery-roadmap/
-│
-├── README.md
-│
-├── notes/
-│   ├── 00-How-The-Internet-Works.md
-│   ├── 01-Cloud-Computing-Foundations.md
-│   ├── ...
-│   └── 32-DevOps-Scenario-Based-Interviews.md
-│
-├── diagrams/
-│
-├── images/
-│
-├── cheatsheets/
-│   ├── Linux-CheatSheet.md
-│   ├── Docker-CheatSheet.md
-│   ├── Kubernetes-CheatSheet.md
-│   ├── AWS-CheatSheet.md
-│   ├── Git-CheatSheet.md
-│   └── Networking-CheatSheet.md
-│
-└── assets/
-```
-
----
-
 # 🎯 What You Will Learn
 
 By completing this roadmap, you will be able to:
@@ -279,9 +296,35 @@ By completing this roadmap, you will be able to:
 
 ✅ Troubleshoot Production Systems
 
+✅ Design Highly Available Architectures
+
 ✅ Build End-to-End DevOps Projects
 
 ✅ Crack DevOps, Cloud & SRE Interviews
+
+---
+
+# 📁 Repository Structure
+
+```text
+devops-mastery-roadmap/
+│
+├── README.md
+│
+├── notes/
+│   ├── 00-How-The-Internet-Works.md
+│   ├── ...
+│   └── 32-DevOps-Scenario-Based-Interviews.md
+│
+├── cheatsheets/
+│   ├── 33-Linux-CheatSheet.md
+│   ├── ...
+│   └── 42-DevOps-Quick-Revision.md
+│
+├── diagrams/
+├── images/
+└── assets/
+```
 
 ---
 
@@ -310,8 +353,6 @@ Projects → Interviews
 ---
 
 # ⭐ If This Repository Helps
-
-Consider:
 
 ```text
 ⭐ Star the Repository
