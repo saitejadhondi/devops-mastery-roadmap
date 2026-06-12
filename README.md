@@ -2,7 +2,7 @@
 
 > Complete Beginner → Advanced DevOps, Cloud, SRE & Platform Engineering Learning Path
 
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/devops-mastery-roadmap?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/saitejadhondi/devops-mastery-roadmap?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/devops-mastery-roadmap?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/devops-mastery-roadmap?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
