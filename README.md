@@ -1,31 +1,37 @@
 # 🚀 DevOps Mastery Roadmap
 
-> A Complete Beginner → Advanced DevOps, Cloud, Kubernetes, AWS, SRE, and Platform Engineering Learning Repository
+> Complete Beginner → Advanced DevOps, Cloud, Platform Engineering & SRE Learning Path
 
 ---
 
-## 🎯 About This Repository
+## 🎯 Goal
 
-This repository is designed to help anyone learn modern DevOps from scratch and gradually progress toward real-world production environments.
+This repository is designed to help learners understand how modern software is built, deployed, monitored, secured, and operated in production environments.
 
-The goal is not just to learn tools, but to understand:
+By following this roadmap, you will learn:
 
-* How the Internet works
-* How cloud platforms operate
-* How software is built and deployed
-* How containers and Kubernetes work
-* How infrastructure is automated
-* How production systems are monitored
-* How large-scale systems are designed
-* How DevOps engineers troubleshoot real incidents
-
-By the end of this roadmap, you should be able to understand and explain the complete software delivery lifecycle used by modern technology companies.
+* Internet Fundamentals
+* Cloud Computing
+* Linux
+* Networking
+* Security
+* Git & GitHub
+* CI/CD
+* Docker
+* Kubernetes
+* AWS
+* Terraform
+* Monitoring
+* SRE
+* System Design
+* Production Troubleshooting
+* DevOps Interview Preparation
 
 ---
 
-# 🛣️ Learning Roadmap
+# 📚 Learning Roadmap
 
-## Phase 1 — Foundations
+## 🌍 Foundations
 
 | Chapter | Topic                                                                  |
 | ------- | ---------------------------------------------------------------------- |
@@ -35,7 +41,7 @@ By the end of this roadmap, you should be able to understand and explain the com
 
 ---
 
-## Phase 2 — Source Control & CI/CD
+## 🔧 Version Control & CI/CD
 
 | Chapter | Topic                                                            |
 | ------- | ---------------------------------------------------------------- |
@@ -44,7 +50,7 @@ By the end of this roadmap, you should be able to understand and explain the com
 
 ---
 
-## Phase 3 — Containers & Cloud
+## 📦 Containers & Cloud
 
 | Chapter | Topic                                                                              |
 | ------- | ---------------------------------------------------------------------------------- |
@@ -55,7 +61,7 @@ By the end of this roadmap, you should be able to understand and explain the com
 
 ---
 
-## Phase 4 — Production Operations
+## 📊 Production Operations
 
 | Chapter | Topic                                                                                |
 | ------- | ------------------------------------------------------------------------------------ |
@@ -64,7 +70,7 @@ By the end of this roadmap, you should be able to understand and explain the com
 
 ---
 
-## Phase 5 — Interview Preparation
+## 🎤 Interview Preparation
 
 | Chapter | Topic                                                                   |
 | ------- | ----------------------------------------------------------------------- |
@@ -74,31 +80,66 @@ By the end of this roadmap, you should be able to understand and explain the com
 
 ---
 
-# 🚀 Upcoming Advanced Topics
+# 🚀 Advanced DevOps Roadmap
 
-The roadmap will continue with:
+## 📝 Configuration & Automation
 
-| Chapter | Topic                               |
-| ------- | ----------------------------------- |
-| 14      | YAML for DevOps                     |
-| 15      | Nginx Deep Dive                     |
-| 16      | Ansible Deep Dive                   |
-| 17      | Linux Deep Dive                     |
-| 18      | Networking Deep Dive                |
-| 19      | Security Fundamentals               |
-| 20      | Git Advanced                        |
-| 21      | GitHub Actions Deep Dive            |
-| 22      | Kubernetes Advanced                 |
-| 23      | AWS Advanced Services               |
-| 24      | Databases for DevOps                |
-| 25      | Observability Advanced              |
-| 26      | System Design for DevOps            |
-| 27      | SRE Fundamentals                    |
-| 28      | Production Troubleshooting Handbook |
+| Chapter | Topic                                              |
+| ------- | -------------------------------------------------- |
+| 14      | [YAML For DevOps](notes/14-YAML-For-DevOps.md)     |
+| 15      | [Nginx Deep Dive](notes/15-Nginx-Deep-Dive.md)     |
+| 16      | [Ansible Deep Dive](notes/16-Ansible-Deep-Dive.md) |
 
 ---
 
-# 🏗️ Complete DevOps Lifecycle
+## 🐧 Linux, Networking & Security
+
+| Chapter | Topic                                                      |
+| ------- | ---------------------------------------------------------- |
+| 17      | [Linux Deep Dive](notes/17-Linux-Deep-Dive.md)             |
+| 18      | [Networking Deep Dive](notes/18-Networking-Deep-Dive.md)   |
+| 19      | [Security Fundamentals](notes/19-Security-Fundamentals.md) |
+
+---
+
+## 🔥 Advanced Git & CI/CD
+
+| Chapter | Topic                                                            |
+| ------- | ---------------------------------------------------------------- |
+| 20      | [Git Advanced](notes/20-Git-Advanced.md)                         |
+| 21      | [GitHub Actions Deep Dive](notes/21-GitHub-Actions-Deep-Dive.md) |
+
+---
+
+## ☸️ Cloud Native
+
+| Chapter | Topic                                                      |
+| ------- | ---------------------------------------------------------- |
+| 22      | [Kubernetes Advanced](notes/22-Kubernetes-Advanced.md)     |
+| 23      | [AWS Advanced Services](notes/23-AWS-Advanced-Services.md) |
+
+---
+
+## 🗄️ Data & Observability
+
+| Chapter | Topic                                                        |
+| ------- | ------------------------------------------------------------ |
+| 24      | [Databases For DevOps](notes/24-Databases-for-DevOps.md)     |
+| 25      | [Observability Advanced](notes/25-Observability-Advanced.md) |
+
+---
+
+## 🏗️ Architecture & Reliability
+
+| Chapter | Topic                                                                                  |
+| ------- | -------------------------------------------------------------------------------------- |
+| 26      | [System Design For DevOps](notes/26-System-Design-for-DevOps.md)                       |
+| 27      | [SRE Fundamentals](notes/27-SRE-Fundamentals.md)                                       |
+| 28      | [Production Troubleshooting Handbook](notes/28-Production-Troubleshooting-Handbook.md) |
+
+---
+
+# 🏗 Complete DevOps Lifecycle
 
 ```text
 Internet
@@ -113,7 +154,7 @@ GitHub
     ↓
 Webhook
     ↓
-Jenkins
+CI/CD
     ↓
 Docker
     ↓
@@ -124,6 +165,8 @@ Terraform
 Kubernetes
     ↓
 Monitoring
+    ↓
+SRE
     ↓
 Production
 ```
@@ -141,7 +184,7 @@ GitHub
    ↓
 Webhook
    ↓
-Jenkins
+Jenkins / GitHub Actions
    ↓
 Build
    ↓
@@ -164,87 +207,60 @@ Users
 Monitoring
    ↓
 Alerts
+   ↓
+Engineers
 ```
 
 ---
 
-# 🧠 Skills Covered
+# 🎯 Skills Covered
+
+### Foundations
+
+* Internet
+* Cloud Computing
+* Linux
+* Networking
+* Security
 
 ### DevOps
 
-* CI/CD
+* Git
+* GitHub
 * Jenkins
 * GitHub Actions
-* Automation
-* Deployment Strategies
+* CI/CD
 
-### Containers
-
-* Docker
-* Container Runtime
-* Container Networking
-
-### Cloud
+### Cloud & Infrastructure
 
 * AWS
 * Terraform
-* Infrastructure as Code
+* Kubernetes
+* Nginx
+* Ansible
 
-### Kubernetes
-
-* Pods
-* Deployments
-* Services
-* Ingress
-* Scaling
-* Observability
-
-### Monitoring
+### Observability
 
 * Prometheus
 * Grafana
-* Logging
-* Alerting
+* ELK
+* OpenTelemetry
+* Jaeger
 
-### Networking
+### Reliability
 
-* DNS
-* TCP/IP
-* HTTP/HTTPS
-* Load Balancers
-
-### Security
-
-* SSL/TLS
-* SSH
-* Public & Private Keys
-* Secrets Management
-
-### Production Engineering
-
-* Troubleshooting
-* Incident Response
+* SRE
 * High Availability
 * Disaster Recovery
-
----
-
-# 👨‍💻 Who Is This Repository For?
-
-* Software Engineers
-* DevOps Engineers
-* Cloud Engineers
-* Platform Engineers
-* SRE Engineers
-* Students & Freshers
-* Interview Preparation
+* Incident Management
+* Troubleshooting
 
 ---
 
 # 📁 Repository Structure
 
 ```text
-devops-mastery-roadmap
+devops-mastery-roadmap/
 │
 ├── README.md
 │
@@ -255,17 +271,27 @@ devops-mastery-roadmap
 │   └── 28-Production-Troubleshooting-Handbook.md
 │
 ├── diagrams/
-│
 ├── images/
-│
 └── assets/
 ```
 
 ---
 
+# 👨‍💻 Who Is This For?
+
+* Software Engineers
+* DevOps Engineers
+* Cloud Engineers
+* Platform Engineers
+* SRE Engineers
+* Students
+* Interview Preparation
+
+---
+
 # ⭐ Support
 
-If these notes help your learning journey:
+If these notes help you:
 
 * ⭐ Star the repository
 * 🍴 Fork the repository
@@ -281,4 +307,4 @@ If these notes help your learning journey:
 M.Tech (Computer Science - Information Security)
 National Institute of Technology, Bhopal
 
-Building a complete DevOps learning roadmap for beginners and professionals.
+Building a complete DevOps learning roadmap from Beginner → Production Engineer.
