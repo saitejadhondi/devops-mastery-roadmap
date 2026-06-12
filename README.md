@@ -1,310 +1,257 @@
 # 🚀 DevOps Mastery Roadmap
 
-> Complete Beginner → Advanced DevOps, Cloud, Platform Engineering & SRE Learning Path
+> Complete Beginner → Advanced DevOps, Cloud, SRE & Platform Engineering Learning Path
+
+![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/devops-mastery-roadmap?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/devops-mastery-roadmap?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/devops-mastery-roadmap?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
-## 🎯 Goal
+# 🎯 About This Repository
 
-This repository is designed to help learners understand how modern software is built, deployed, monitored, secured, and operated in production environments.
+This repository is designed to take a learner from:
 
-By following this roadmap, you will learn:
+```text
+Complete Beginner
+        ↓
+DevOps Fundamentals
+        ↓
+Cloud & Infrastructure
+        ↓
+Containers & Kubernetes
+        ↓
+Observability & SRE
+        ↓
+Production Troubleshooting
+        ↓
+Interview Preparation
+```
 
-* Internet Fundamentals
-* Cloud Computing
-* Linux
-* Networking
-* Security
-* Git & GitHub
-* CI/CD
-* Docker
-* Kubernetes
-* AWS
-* Terraform
-* Monitoring
-* SRE
-* System Design
-* Production Troubleshooting
-* DevOps Interview Preparation
+The goal is to provide a structured roadmap covering the skills expected from:
+
+* DevOps Engineers
+* Cloud Engineers
+* Site Reliability Engineers (SRE)
+* Platform Engineers
+* Infrastructure Engineers
+* Software Engineers interested in Cloud & DevOps
 
 ---
 
-# 📚 Learning Roadmap
+# 🗺 Learning Roadmap
 
 ## 🌍 Foundations
 
-| Chapter | Topic                                                                  |
-| ------- | ---------------------------------------------------------------------- |
-| 00      | [How The Internet Works](notes/00-How-The-Internet-Works.md)           |
-| 01      | [Cloud Computing Foundations](notes/01-Cloud-Computing-Foundations.md) |
-| 02      | [DevOps Foundations](notes/02-DevOps-Foundations.md)                   |
-
----
-
-## 🔧 Version Control & CI/CD
-
-| Chapter | Topic                                                            |
-| ------- | ---------------------------------------------------------------- |
-| 03      | [Git, GitHub & Webhooks](notes/03-Git-GitHub-Webhooks.md)        |
-| 04      | [CI/CD & Jenkins Deep Dive](notes/04-CI-CD-Jenkins-Deep-Dive.md) |
-
----
-
-## 📦 Containers & Cloud
-
 | Chapter | Topic                                                                              |
 | ------- | ---------------------------------------------------------------------------------- |
-| 05      | [Docker Deep Dive](notes/05-Docker-Deep-Dive.md)                                   |
-| 06      | [AWS Cloud Deep Dive](notes/06-AWS-Cloud-Deep-Dive.md)                             |
-| 07      | [Terraform (Infrastructure as Code)](notes/07-Terraform-Infrastructure-as-Code.md) |
-| 08      | [Kubernetes Deep Dive](notes/08-Kubernetes-Deep-Dive.md)                           |
+| 00      | [How The Internet Works](notes/Foundations/00-How-The-Internet-Works.md)           |
+| 01      | [Cloud Computing Foundations](notes/Foundations/01-Cloud-Computing-Foundations.md) |
+| 02      | [DevOps Foundations](notes/Foundations/02-DevOps-Foundations.md)                   |
+| 03      | [Git, GitHub & Webhooks](notes/Foundations/03-Git-GitHub-Webhooks.md)              |
 
 ---
 
-## 📊 Production Operations
+## ⚙️ Core DevOps
 
-| Chapter | Topic                                                                                |
-| ------- | ------------------------------------------------------------------------------------ |
-| 09      | [Monitoring & Observability](notes/09-Monitoring-Logging-Observability.md)           |
-| 10      | [End-to-End Production Architecture](notes/10-End-to-End-Production-Architecture.md) |
-
----
-
-## 🎤 Interview Preparation
-
-| Chapter | Topic                                                                   |
-| ------- | ----------------------------------------------------------------------- |
-| 11      | [DevOps Interview Questions Part 1](notes/11-DevOps-Interview-Part1.md) |
-| 12      | [DevOps Interview Questions Part 2](notes/12-DevOps-Interview-Part2.md) |
-| 13      | [DevOps Interview Questions Part 3](notes/13-DevOps-Interview-Part3.md) |
+| Chapter | Topic                                                                                            |
+| ------- | ------------------------------------------------------------------------------------------------ |
+| 04      | [CI/CD & Jenkins Deep Dive](notes/Core-DevOps/04-CI-CD-Jenkins-Deep-Dive.md)                     |
+| 05      | [Docker Deep Dive](notes/Core-DevOps/05-Docker-Deep-Dive.md)                                     |
+| 06      | [AWS Cloud Deep Dive](notes/Core-DevOps/06-AWS-Cloud-Deep-Dive.md)                               |
+| 07      | [Terraform Infrastructure as Code](notes/Core-DevOps/07-Terraform-Infrastructure-as-Code.md)     |
+| 08      | [Kubernetes Deep Dive](notes/Core-DevOps/08-Kubernetes-Deep-Dive.md)                             |
+| 09      | [Monitoring, Logging & Observability](notes/Core-DevOps/09-Monitoring-Logging-Observability.md)  |
+| 10      | [End-to-End Production Architecture](notes/Core-DevOps/10-End-to-End-Production-Architecture.md) |
 
 ---
 
-# 🚀 Advanced DevOps Roadmap
+## 🚀 Advanced DevOps
 
-## 📝 Configuration & Automation
-
-| Chapter | Topic                                              |
-| ------- | -------------------------------------------------- |
-| 14      | [YAML For DevOps](notes/14-YAML-For-DevOps.md)     |
-| 15      | [Nginx Deep Dive](notes/15-Nginx-Deep-Dive.md)     |
-| 16      | [Ansible Deep Dive](notes/16-Ansible-Deep-Dive.md) |
-
----
-
-## 🐧 Linux, Networking & Security
-
-| Chapter | Topic                                                      |
-| ------- | ---------------------------------------------------------- |
-| 17      | [Linux Deep Dive](notes/17-Linux-Deep-Dive.md)             |
-| 18      | [Networking Deep Dive](notes/18-Networking-Deep-Dive.md)   |
-| 19      | [Security Fundamentals](notes/19-Security-Fundamentals.md) |
-
----
-
-## 🔥 Advanced Git & CI/CD
-
-| Chapter | Topic                                                            |
-| ------- | ---------------------------------------------------------------- |
-| 20      | [Git Advanced](notes/20-Git-Advanced.md)                         |
-| 21      | [GitHub Actions Deep Dive](notes/21-GitHub-Actions-Deep-Dive.md) |
+| Chapter | Topic                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------ |
+| 14      | [YAML for DevOps](notes/Advanced-DevOps/14-YAML-For-DevOps.md)                                         |
+| 15      | [Nginx Deep Dive](notes/Advanced-DevOps/15-Nginx-Deep-Dive.md)                                         |
+| 16      | [Ansible Deep Dive](notes/Advanced-DevOps/16-Ansible-Deep-Dive.md)                                     |
+| 17      | [Linux Deep Dive](notes/Advanced-DevOps/17-Linux-Deep-Dive.md)                                         |
+| 18      | [Networking Deep Dive](notes/Advanced-DevOps/18-Networking-Deep-Dive.md)                               |
+| 19      | [Security Fundamentals](notes/Advanced-DevOps/19-Security-Fundamentals.md)                             |
+| 20      | [Advanced Git](notes/Advanced-DevOps/20-Git-Advanced.md)                                               |
+| 21      | [GitHub Actions Deep Dive](notes/Advanced-DevOps/21-GitHub-Actions-Deep-Dive.md)                       |
+| 22      | [Advanced Kubernetes](notes/Advanced-DevOps/22-Kubernetes-Advanced.md)                                 |
+| 23      | [AWS Advanced Services](notes/Advanced-DevOps/23-AWS-Advanced-Services.md)                             |
+| 24      | [Databases for DevOps](notes/Advanced-DevOps/24-Databases-for-DevOps.md)                               |
+| 25      | [Advanced Observability](notes/Advanced-DevOps/25-Observability-Advanced.md)                           |
+| 26      | [System Design for DevOps](notes/Advanced-DevOps/26-System-Design-for-DevOps.md)                       |
+| 27      | [SRE Fundamentals](notes/Advanced-DevOps/27-SRE-Fundamentals.md)                                       |
+| 28      | [Production Troubleshooting Handbook](notes/Advanced-DevOps/28-Production-Troubleshooting-Handbook.md) |
 
 ---
 
-## ☸️ Cloud Native
+## 🛠 Real-World Projects
 
-| Chapter | Topic                                                      |
-| ------- | ---------------------------------------------------------- |
-| 22      | [Kubernetes Advanced](notes/22-Kubernetes-Advanced.md)     |
-| 23      | [AWS Advanced Services](notes/23-AWS-Advanced-Services.md) |
-
----
-
-## 🗄️ Data & Observability
-
-| Chapter | Topic                                                        |
-| ------- | ------------------------------------------------------------ |
-| 24      | [Databases For DevOps](notes/24-Databases-for-DevOps.md)     |
-| 25      | [Observability Advanced](notes/25-Observability-Advanced.md) |
+| Chapter | Topic                                                                         |
+| ------- | ----------------------------------------------------------------------------- |
+| 29      | [Real World DevOps Projects](notes/Projects/29-Real-World-DevOps-Projects.md) |
 
 ---
 
-## 🏗️ Architecture & Reliability
+## 🎯 Interview Preparation
 
-| Chapter | Topic                                                                                  |
-| ------- | -------------------------------------------------------------------------------------- |
-| 26      | [System Design For DevOps](notes/26-System-Design-for-DevOps.md)                       |
-| 27      | [SRE Fundamentals](notes/27-SRE-Fundamentals.md)                                       |
-| 28      | [Production Troubleshooting Handbook](notes/28-Production-Troubleshooting-Handbook.md) |
+| Chapter | Topic                                                                                                                   |
+| ------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 11      | [DevOps Interview Questions Part 1](notes/Interview-Prep/11-DevOps-Interview-Part1.md)                                  |
+| 12      | [DevOps Interview Questions Part 2](notes/Interview-Prep/12-DevOps-Interview-Part2.md)                                  |
+| 13      | [DevOps Interview Questions Part 3](notes/Interview-Prep/13-DevOps-Interview-Part3.md)                                  |
+| 30      | [DevOps Interview Master Handbook](notes/Interview-Prep/30-DevOps-Interview-Master-Handbook.md)                         |
+| 31      | [DevOps Interview Questions & Answers Ultimate](notes/Interview-Prep/31-DevOps-Interview-Questions-Answers-Ultimate.md) |
+| 32      | [Scenario-Based DevOps Interviews](notes/Interview-Prep/32-DevOps-Scenario-Based-Interviews.md)                         |
 
 ---
 
-# 🏗 Complete DevOps Lifecycle
+# 📊 DevOps Learning Flow
 
 ```text
 Internet
-    ↓
+   ↓
 Cloud
-    ↓
+   ↓
 DevOps
-    ↓
-Git
-    ↓
-GitHub
-    ↓
-Webhook
-    ↓
+   ↓
+Git & GitHub
+   ↓
 CI/CD
-    ↓
+   ↓
 Docker
-    ↓
+   ↓
 AWS
-    ↓
+   ↓
 Terraform
-    ↓
+   ↓
 Kubernetes
-    ↓
+   ↓
 Monitoring
-    ↓
+   ↓
+Observability
+   ↓
 SRE
-    ↓
-Production
+   ↓
+Production Troubleshooting
+   ↓
+Projects
+   ↓
+Interview Preparation
 ```
 
 ---
 
-# 🔄 End-to-End Software Delivery Flow
+# 🧰 Cheatsheets
+
+| Cheatsheet                                                    |
+| ------------------------------------------------------------- |
+| [Linux Cheatsheet](cheatsheets/Linux-CheatSheet.md)           |
+| [Docker Cheatsheet](cheatsheets/Docker-CheatSheet.md)         |
+| [Kubernetes Cheatsheet](cheatsheets/Kubernetes-CheatSheet.md) |
+| [AWS Cheatsheet](cheatsheets/AWS-CheatSheet.md)               |
+| [Git Cheatsheet](cheatsheets/Git-CheatSheet.md)               |
+| [Networking Cheatsheet](cheatsheets/Networking-CheatSheet.md) |
+
+---
+
+# 🏗 Repository Structure
 
 ```text
-Developer
-   ↓
-Git Push
-   ↓
-GitHub
-   ↓
-Webhook
-   ↓
-Jenkins / GitHub Actions
-   ↓
-Build
-   ↓
-Test
-   ↓
-Docker Build
-   ↓
-Container Registry
-   ↓
-Terraform
-   ↓
-AWS Infrastructure
-   ↓
-Kubernetes
-   ↓
-Pods
-   ↓
-Users
-   ↓
-Monitoring
-   ↓
-Alerts
-   ↓
-Engineers
+devops-mastery-roadmap
+│
+├── notes
+│   ├── Foundations
+│   ├── Core-DevOps
+│   ├── Advanced-DevOps
+│   ├── Projects
+│   └── Interview-Prep
+│
+├── diagrams
+│
+├── images
+│
+├── cheatsheets
+│
+└── assets
 ```
 
 ---
 
 # 🎯 Skills Covered
 
-### Foundations
-
-* Internet
-* Cloud Computing
-* Linux
-* Networking
-* Security
-
-### DevOps
-
-* Git
-* GitHub
-* Jenkins
-* GitHub Actions
-* CI/CD
-
-### Cloud & Infrastructure
-
-* AWS
-* Terraform
-* Kubernetes
-* Nginx
-* Ansible
-
-### Observability
-
-* Prometheus
-* Grafana
-* ELK
-* OpenTelemetry
-* Jaeger
-
-### Reliability
-
-* SRE
-* High Availability
-* Disaster Recovery
-* Incident Management
-* Troubleshooting
-
----
-
-# 📁 Repository Structure
-
 ```text
-devops-mastery-roadmap/
-│
-├── README.md
-│
-├── notes/
-│   ├── 00-How-The-Internet-Works.md
-│   ├── 01-Cloud-Computing-Foundations.md
-│   ├── ...
-│   └── 28-Production-Troubleshooting-Handbook.md
-│
-├── diagrams/
-├── images/
-└── assets/
+Linux
+Networking
+Security
+Git
+GitHub
+GitHub Actions
+CI/CD
+Jenkins
+Docker
+Nginx
+AWS
+Terraform
+Ansible
+Kubernetes
+Databases
+Monitoring
+Observability
+SRE
+System Design
+Production Troubleshooting
 ```
 
 ---
 
-# 👨‍💻 Who Is This For?
+# 🚀 End Goal
 
-* Software Engineers
-* DevOps Engineers
-* Cloud Engineers
-* Platform Engineers
-* SRE Engineers
-* Students
-* Interview Preparation
+After completing this roadmap, you should be able to:
+
+✅ Build CI/CD Pipelines
+
+✅ Containerize Applications
+
+✅ Deploy Applications on Kubernetes
+
+✅ Provision Infrastructure using Terraform
+
+✅ Manage AWS Cloud Resources
+
+✅ Implement Monitoring & Alerting
+
+✅ Troubleshoot Production Systems
+
+✅ Design Highly Available Architectures
+
+✅ Prepare for DevOps, Cloud, SRE & Platform Engineering Interviews
 
 ---
 
 # ⭐ Support
 
-If these notes help you:
+If this repository helps your learning journey:
 
-* ⭐ Star the repository
-* 🍴 Fork the repository
-* 📢 Share with others
-* 📝 Contribute improvements
+```text
+⭐ Star the Repository
+🍴 Fork the Repository
+📢 Share with Others
+```
 
 ---
 
-# 🚀 Author
+# 👨‍💻 Author
 
-**Saiteja Dhondi**
+**Dhondi Saiteja**
 
-M.Tech (Computer Science - Information Security)
-National Institute of Technology, Bhopal
+* GitHub: https://github.com/saitejadhondi
+* LinkedIn: https://linkedin.com/in/saiteja-dhondi
 
-Building a complete DevOps learning roadmap from Beginner → Production Engineer.
+---
+
+## 💡 Learn • Build • Automate • Scale
