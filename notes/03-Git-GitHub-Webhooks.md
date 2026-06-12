@@ -10,6 +10,7 @@
 
 ---
 
+
 # 📖 Table of Contents
 
 1. Why Git Exists
