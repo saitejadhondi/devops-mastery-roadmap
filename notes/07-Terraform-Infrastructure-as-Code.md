@@ -1,4 +1,4 @@
-# 🌎 08-Terraform-Infrastructure-as-Code.md
+# 🌎 07-Terraform-Infrastructure-as-Code.md
 
 # Terraform & Infrastructure as Code (IaC)
 
